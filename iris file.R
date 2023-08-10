@@ -1,0 +1,7 @@
+library(datasets)
+library(ggplot2)
+data("iris")
+summary(iris)
+plot(iris$Sepal.Length,iris$Petal.Length)
+hist(iris$Sepal.Length)
+boxplot(iris$Sepal.Length)
